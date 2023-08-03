@@ -19,6 +19,7 @@ import GithubPrimer from '../assets/github-primer.png';
 import Monaco from '../assets/monaco-logo.png';
 import ReactQuery from '../assets/react-query-logo.png';
 import {MarkGithubIcon} from '@primer/octicons-react'
+import logo from '/public/logo.png';
 
 
 import { useEffect, useState } from "react";
@@ -99,14 +100,24 @@ export default function LandingPage({ param, setParam, setShowEditor }) {
         <PageLayout width="100%">
           <PageLayout.Header>
             <Box sx={{p: 3, display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
-              <div>
-                {/* <img>
-                src="public\logo.png";
-                </img> */}
-              <Text as="p" sx={{fontWeight: 'bold', fontSize: "25px"}}>
-                dotReads
+              
+            <div>
+            <Avatar
+                  src={logo}
+                  size={60}
+                  alt="logo of dotRead"
+                />
+              <Text sx={{padding:'10px', fontWeight: 'bold', fontSize: "25px"}}>
+                dotRead
               </Text>
-              </div>
+            </div>
+
+              {/* <div>
+              <Text as="p" sx={{fontWeight: 'bold', fontSize: "25px"}}>
+                dotRead
+              </Text>
+              </div> */}
+              
               <div>
                 <Link target="_blank" href="https://github.com/pradeeptosarkar/dotRead">
                  <Avatar
