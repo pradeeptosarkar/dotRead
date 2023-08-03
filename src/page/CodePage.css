@@ -1,0 +1,19 @@
+.headerFlex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.repoInfoDiv{
+  display: flex;
+}
+
+.repoNameDiv{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* .closeBtnDiv{
+  background-color: #4e1616;
+} */

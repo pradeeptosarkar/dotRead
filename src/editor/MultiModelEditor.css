@@ -1,0 +1,28 @@
+.filesOpened{
+  color: #d4d4d4;
+  display: flex;
+  align-items: center;
+  
+}
+
+.filesOpened div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0.25rem 0.5rem;
+  background-color: #292929;
+  border-top: 3px solid transparent;
+  border-radius: 20px;
+}
+
+.filesOpened div:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.filesOpened div.activeFile{
+  background-color: #3e80b4;
+  border: 3px solid #062d63;
+  border-radius: 20px;
+}
