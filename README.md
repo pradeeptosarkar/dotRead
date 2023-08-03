@@ -6,7 +6,7 @@ It's a tool for reading github code in the brower using Monaco editor. It helps 
 
 Here is the link for the live demo, give it a try
 
-> [dotRead](<link>)
+> [dotRead](https://dotread.netlify.app/)
 
 ## How to Set up `dotRead` for Development?
 
