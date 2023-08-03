@@ -100,8 +100,11 @@ export default function LandingPage({ param, setParam, setShowEditor }) {
           <PageLayout.Header>
             <Box sx={{p: 3, display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
               <div>
+                {/* <img>
+                src="public\logo.png";
+                </img> */}
               <Text as="p" sx={{fontWeight: 'bold', fontSize: "25px"}}>
-                dotRead
+                dotReads
               </Text>
               </div>
               <div>
@@ -171,6 +174,7 @@ export default function LandingPage({ param, setParam, setShowEditor }) {
             </Link>
             
             </Box>
+
             <Box width="100%" sx={{fontFamily: "monospace", paddingTop: "10px", fontSize: "15px",display: "flex",flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>using</Box>
             <Box
 
@@ -184,15 +188,24 @@ export default function LandingPage({ param, setParam, setShowEditor }) {
               }}
             >
               <Box width="10%" sx={{display: "flex",flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-               <Avatar square size="40" src={GithubGraphQL} />
-               <Text as="p" sx={{fontSize: "12px",fontWeight: 'bold', textAlign: 'center'}}>
-                  GitHub 
-                  <br />
-                  GraphQL API
+                <Link target="_blank" href="https://docs.github.com/en/graphql">
+              <Avatar square size="40" src={GithubGraphQL} />
+              </Link>
+                
+                <Text as="p" sx={{fontSize: "12px",fontWeight: 'bold', textAlign: 'center'}}>
+                GitHub 
+                <br />
+                GraphQL API                  
                 </Text>
+               
+               
               </Box>
               <Box width="10%" sx={{display: "flex",flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-               <Avatar square size="40" src={GithubPrimer} />
+
+                <Link target="_blank" href="https://primer.style/react/getting-started">
+                <Avatar square size="40" src={GithubPrimer} />
+                </Link>
+               
                <Text as="p" sx={{fontSize: "12px",fontWeight: 'bold', textAlign: 'center'}}>
                   GitHub
                   <br />
@@ -200,7 +213,11 @@ export default function LandingPage({ param, setParam, setShowEditor }) {
                 </Text>
               </Box>
               <Box width="10%" sx={{display: "flex",flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+
+               <Link target="_blank" href="https://microsoft.github.io/monaco-editor/">
                <Avatar square size="40" src={Monaco} />
+               </Link>
+               
                <Text as="p" sx={{fontSize: "12px",fontWeight: 'bold', textAlign: 'center'}}>
                   Blazor
                   <br />
@@ -208,7 +225,9 @@ export default function LandingPage({ param, setParam, setShowEditor }) {
                 </Text>
               </Box>
               <Box width="10%" sx={{display: "flex",flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+                <Link target="_blank" href="https://tanstack.com/query/latest/docs/react/overview">
                <Avatar square size="40" src={ReactQuery} />
+               </Link>
                <Text as="p" sx={{fontSize: "12px",fontWeight: 'bold', textAlign: 'center'}}>
                   React 
                   <br />
