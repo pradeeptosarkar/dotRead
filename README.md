@@ -1,6 +1,7 @@
 ## Table of Contents
 - [Introduction to dotRead](#introducing-dotread)
 - [Demo](#live-demo)
+- [Part of Hacktoberfest 2023]
 - [Local Setup](#how-to-set-up-dotread-for-development)
 
 ## Introducing dotRead
@@ -12,6 +13,24 @@ It's a tool for reading github code in the brower using Monaco editor. It helps 
 Here is the link for the live demo, give it a try
 
 > [dotRead](https://dotread.netlify.app/)
+
+## Open Source programs this repo has been part of
+<a href="https://github.com/pradeeptosarkar/dotread"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a>
+
+
+<div align="center">
+<img src="https://miro.medium.com/v2/resize:fit:1400/0*McOGR_vW3LivYNor.png" width="500px">
+</div>
+
+<div align="center">
+    <a href="https://hacktoberfest.com/">HACTOBERFEST 2023</a>
+
+</div>
+<br>
+
+<br>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## How to Set up `dotRead` for Development?
 
