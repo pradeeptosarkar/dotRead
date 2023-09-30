@@ -1,7 +1,12 @@
+<div align="center">
+<h3>Show some ❤️ by starring this awesome repository!</h3>
+</div>
+
 ## Table of Contents
 - [Introduction to dotRead](#introducing-dotread)
 - [Demo](#live-demo)
 - [Part of Hacktoberfest 2023](#open-source-programs-this-repo-has-been-part-of)
+- [Contribution Guidelines](#contribution-guidelines)
 - [Local Setup](#how-to-set-up-dotread-for-development)
 
 ## Introducing dotRead
@@ -187,3 +192,20 @@ npm run dev
 It runs the app in development mode. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 
 The page will reload when you make changes.
+
+## Github Beginner Guide
+#### Are you a beginner in using Github?
+
+You can refer to the following articles on the basics of Git and Github and also contact me, in case you are stuck:
+- [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+- [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-an-issue-or-pull-request)
+- [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
+- [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
+- [Learn GitHub from Scratch](https://lab.github.com/githubtraining/introduction-to-github)
+	
+	 
+	 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
