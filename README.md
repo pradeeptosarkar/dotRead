@@ -1,5 +1,5 @@
 ## Table of Contents
-- [Introduction to dotRead](https://github.com/pradeeptosarkar/dotRead#introducing-dotread)
+- [Introduction to dotRead](#introducing-dotread)
 
 ## Introducing dotRead
 
