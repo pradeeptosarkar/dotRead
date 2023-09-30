@@ -1,3 +1,6 @@
+## Table of Contents
+[Introduction to dotRead](# Introducing dotRead
+
 ## Introducing dotRead
 
 It's a tool for reading github code in the brower using Monaco editor. It helps in skimming the codebase with ease and have features like multiple open files.
