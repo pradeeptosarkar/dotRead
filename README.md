@@ -32,6 +32,94 @@ Here is the link for the live demo, give it a try
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Contribution Guidelines
+
+Here are some set of guidelines to follow while contributing to `dotRead` :
+```
+1. Welcome to this repository, if you are here as an open-source program participant/contributor.
+2. Participants/contributors have to **comment** on issues they would like to work on, and mentors or the PA will assign you.
+3. Issues will be assigned on a **first-come, first-serve basis.**
+4. Participants/contributors can also **open their issues**, but it needs to be verified and labelled by a mentor. We respect all your contributions, whether 
+it is an Issue or a Pull Request.
+5. When you raise an issue, make sure you get it assigned to you before you start working on that project.
+6. Each participant/contributor will be **assigned 1 issue (max)** at a time to work.
+7. Don't create issues that are **already listed**.
+8. Please don't pick up an issue already assigned to someone else. Work on the issues after it gets **assigned to you**.
+9. Create your file in an appropriate folder with appropriate name and extension.
+10. Pull requests will be merged after being **reviewed** by  maintainers5.
+11. We all are here to learn. You are allowed to make mistakes. That's how you learn, right!.
+```
+
+### How to Contribute: 
+
+
+- Before Contribute Please read [CONTRIBUTING.md](https://https://github.com/pradeeptosarkar/dotRead/blob/master/CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](https://https://github.com/pradeeptosarkar/dotRead/blob/master/CODE_OF_CONDUCT.md)
+- Fork the repo to your Github.<br/>
+
+- Clone the Forked Repository to your local machine.
+	```
+	git clone https://github.com/<username>/dotread.
+	```
+- Change the directory to NSCC-BPIT-Website.
+	```bash
+	cd dotread
+	```
+- Add remote to the Original Repository.
+	```
+	git remote add upstream https://https://github.com/pradeeptosarkar/dotRead
+	```
+- Check the remotes for this repository.
+        ```
+        git remote -v
+        ```
+- Always take a pull from the upstream repository to your master branch to keep it at par with the main project(updated repository).
+        ```
+        git pull upstream main
+        ```
+- Create a new branch.
+        ```
+        git checkout -b <your_branch_name>
+        ```
+- Perform your desired changes to the code base.
+- Track your changes:heavy_check_mark: .
+        ```
+        git add . 
+        ```
+- Commit your changes .
+        ```
+        git commit -m "Relevant message"
+        ```
+- Push the committed changes in your feature branch to your remote repo.
+        ```
+        git push -u origin <your_branch_name>
+        ```
+- To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repository you are supposed to make a PR to.
+
+- Add appropriate title and description to your pull request explaining your changes and efforts done.
+
+
+- Click on `Create Pull Request`.
+
+
+- Voila! You have made a PR to this repo. Sit back patiently and relax while your PR is reviewed
+
+	
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+### Install dependencies
+```
+cd dotread
+npm install
+npm start
+```
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
 ## How to Set up `dotRead` for Development?
 
 ### 🍴 Fork and Clone the Repo
@@ -46,7 +134,7 @@ Please change the directory after cloning the repository using the `cd <folder-n
 
 ### Install Dependencies
 
-Next, install the dependencies by running the following command in the `gitread` repo. we recommend using `yarn` but you can install using `npm` too
+Next, install the dependencies by running the following command in the `dotRead` repo. we recommend using `yarn` but you can install using `npm` too
 
 ```bash
 yarn install
