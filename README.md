@@ -1,7 +1,7 @@
 ## Table of Contents
 - [Introduction to dotRead](#introducing-dotread)
 - [Demo](#live-demo)
-- 
+- [Setup Locally](#how-to-setup-dotread-for-development)
 
 ## Introducing dotRead
 
