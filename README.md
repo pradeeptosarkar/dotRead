@@ -1,6 +1,7 @@
 <div align="center">
-<h3>Show some ❤️ by starring this awesome repository!</h3>
+<h2s>Show some ❤️ by starring this awesome repository!</h3>
 </div>
+
 
 ## Table of Contents
 - [Introduction to dotRead](#introducing-dotread)
