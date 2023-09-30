@@ -1,7 +1,7 @@
 ## Table of Contents
 - [Introduction to dotRead](#introducing-dotread)
 - [Demo](#live-demo)
-- [Part of Hacktoberfest 2023]
+- [Part of Hacktoberfest 2023](#open-source-programs-this-repo-has-been-part-of)
 - [Local Setup](#how-to-set-up-dotread-for-development)
 
 ## Introducing dotRead
