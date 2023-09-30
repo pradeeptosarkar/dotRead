@@ -1,5 +1,5 @@
 ## Table of Contents
-[Introduction to dotRead](# Introducing dotRead
+- [Introduction to dotRead] (# Introducing dotRead)
 
 ## Introducing dotRead
 
