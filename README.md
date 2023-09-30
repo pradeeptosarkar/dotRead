@@ -60,7 +60,7 @@ it is an Issue or a Pull Request.
 	```
 	git clone https://github.com/<username>/dotread.
 	```
-- Change the directory to NSCC-BPIT-Website.
+- Change the directory to dotRead.
 	```bash
 	cd dotread
 	```
