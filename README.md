@@ -1,5 +1,5 @@
 <div align="center">
-<h2s>Show some ❤️ by starring this awesome repository!</h3>
+<h2s>Show some ❤️ by starring this awesome repository!</h2>
 </div>
 
 
