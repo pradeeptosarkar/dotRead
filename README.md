@@ -8,6 +8,7 @@
 - [Part of Hacktoberfest 2023](#open-source-programs-this-repo-has-been-part-of)
 - [Contribution Guidelines](#contribution-guidelines)
 - [Local Setup](#how-to-set-up-dotread-for-development)
+- [GitHub Tutorial](#github-beginner-guide)
 
 ## Introducing dotRead
 
