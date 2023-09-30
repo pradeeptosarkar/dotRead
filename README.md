@@ -1,5 +1,7 @@
 ## Table of Contents
 - [Introduction to dotRead](#introducing-dotread)
+- [Demo](#live-demo)
+- 
 
 ## Introducing dotRead
 
