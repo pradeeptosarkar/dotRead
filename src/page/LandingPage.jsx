@@ -29,7 +29,7 @@ const flashMessage = {
   invalid: "You have entered an invalid github repository link",
 };
 
-function SearchRepo({ param, setParam, setShowEditor, setFlashType }) {
+function SearchRepo({ param, setParam, setShowEditor, setFlashType, setLink }) {
   const [isSearchHappened, setIsSearchHappened] = useState(false);
 
   async function handleSubmit(event) {
@@ -40,6 +40,7 @@ function SearchRepo({ param, setParam, setShowEditor, setFlashType }) {
     const formData = new FormData(event.currentTarget);
     const fieldValues = Object.fromEntries(formData.entries());
     const githubUrl = fieldValues["github_link"];
+    setLink(githubUrl);
     // validate github url
     if (!validateGithubUrl(githubUrl)) {
       setFlashType("invalid");
@@ -107,6 +108,7 @@ function SearchRepo({ param, setParam, setShowEditor, setFlashType }) {
 
 export default function LandingPage({ param, setParam, setShowEditor }) {
   const [flashType, setFlashType] = useState("");
+  const [gitHubLink, setGithubLink] = useState("");
   return (
     <>
       <Box bg="canvas.default" width="100%" minHeight="100vh">
@@ -185,6 +187,7 @@ export default function LandingPage({ param, setParam, setShowEditor }) {
                   setParam={setParam}
                   setShowEditor={setShowEditor}
                   setFlashType={setFlashType}
+                  setLink={setGithubLink}
                 />
                 {/* { <Button>Your Previous visited Repos</Button> } */}
                 {
@@ -194,7 +197,7 @@ export default function LandingPage({ param, setParam, setShowEditor }) {
                     <ActionMenu.Overlay>
                       <ActionList>
                         <ActionList.Item onSelect={() => console.log("New file")}>New file</ActionList.Item>
-                        <ActionList.Item>Copy link</ActionList.Item>
+                        <ActionList.Item onSelect={() => navigator.clipboard.writeText(gitHubLink)}>Copy link</ActionList.Item>
                         <ActionList.Item>Edit file</ActionList.Item>
                         <ActionList.Divider />
                         <ActionList.Item variant="danger">Delete file</ActionList.Item>
